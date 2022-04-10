@@ -79,6 +79,53 @@
             #wikimedia{
                 margin-right: 300px;
             }
+            #wikispecies{
+                height: 30px;
+                width: 25px;
+            }
+            .classificationCell{
+                display: flex;
+                justify-content: center;
+            }
+            .classificationGreen{
+                display: flex;
+                justify-content: center;
+                background-color: rgb(75, 202, 75);
+            }
+            #classification{
+                border: 1px solid rgb(139, 138, 138);
+                background-color: aliceblue;
+            }
+            #classificationImg{
+                height: 200px;
+                width: 200px;
+            }
+            .left-side{
+                position: absolute;
+                top: 280px;
+                right: 950px;
+            }
+            .honeycrisp{
+                font-size: small;
+                border: 1px solid rgb(139, 138, 138);
+                background-color: aliceblue;
+                padding: 5px;
+            }
+            .honeycrispImg{
+                width: 200px;
+                height: 140px;
+            }
+            .manyApples{
+                font-size: small;
+                border: 1px solid rgb(139, 138, 138);
+                background-color: aliceblue;
+                padding: 5px;
+                margin: 30px;
+            }
+            .manyApplesImg{
+                width: 180px;
+                height: 300px;
+            }
         </style>
 	</head>
 	<body>
@@ -91,6 +138,54 @@
         <a href="https://he.wikipedia.org/wiki/%D7%A2%D7%9E%D7%95%D7%93_%D7%A8%D7%90%D7%A9%D7%99">  <img id='free' src="https://he.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-he.svg">
         </a>
         </header>
+        <div class="left-side">
+            <table id="classification">
+                <tr>
+                    <td class="classificationGreen"> <strong>תפוח</strong></td>
+                </tr>
+                <tr>
+                  <td class="classificationCell"> <img id="classificationImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/250px-Red_Apple.jpg"></td> 
+                  </tr>
+                  <tr>
+                      <td class="classificationGreen">מיון מדעי</td>
+                  </tr>
+                  <tr>
+                      <td>ממלכה:</td> <td>צמחים</td>
+                  </tr>
+                  <tr>
+                      <td>מערכה:</td> <td>בעלי פרחים</td>
+                  </tr>
+                  <tr>
+                      <td>מחלקה:</td> <td>דו- פסיגיים</td>
+                  </tr>
+                  <tr>
+                      <td>סדרה:</td> <td>ורדנאים</td>
+                  </tr>
+                  <tr>
+                     <td>משפחה:</td> <td>ורדיים</td>
+                  </tr>
+                  <tr>
+                      <td>סוג:</td> <td>תפוח</td>
+                  </tr>
+                  <tr>
+                      <td>מין:</td> <td>תפוח תרבותי</td>
+                  </tr>
+                  <tr>
+                      <td class="classificationGreen">שם מדעי</td>
+                  </tr>
+                  <tr>
+                      <td><img id="wikispecies" src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/21px-Wikispecies-logo.svg.png'>Malus domestica</td>
+                  </tr>
+              </table>
+              <div class="honeycrisp">
+                  <img class="honeycrispImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%C3%84pple_p%C3%A5_%C3%A4ppeltr%C3%A4d.jpg/220px-%C3%84pple_p%C3%A5_%C3%A4ppeltr%C3%A4d.jpg">
+                  <p>עץ תפוחי האני-קריספ</p>
+              </div>
+              <div class="manyApples">
+                  <img class='manyApplesImg' src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Apples.jpg/200px-Apples.jpg">
+                  <p>מגוון זני תפוחים</p>
+              </div>
+        </div>
         <div class="main">
 <h2>תפוח</h2>
 <p>תַּפּוּחַ תַּרְבּוּתִי (מכונה גם תפוח-עץ או בקיצור תפוח, שם מדעי: Malus domestica)
@@ -305,3 +400,44 @@
         
 </body>
 </html>
+<span class="leftSide">
+    <table id="classification">
+      <tr>
+          <td class="classificationGreen"> <strong>תפוח</strong></td>
+      </tr>
+      <tr>
+        <td class="classificationCell"> <img id="classificationImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/250px-Red_Apple.jpg"></td> 
+        </tr>
+        <tr>
+            <td class="classificationGreen">מיון מדעי</td>
+        </tr>
+        <tr>
+            <td>ממלכה:</td> <td>צמחים</td>
+        </tr>
+        <tr>
+            <td>מערכה:</td> <td>בעלי פרחים</td>
+        </tr>
+        <tr>
+            <td>מחלקה:</td> <td>דו- פסיגיים</td>
+        </tr>
+        <tr>
+            <td>סדרה:</td> <td>ורדנאים</td>
+        </tr>
+        <tr>
+           <td>משפחה:</td> <td>ורדיים</td>
+        </tr>
+        <tr>
+            <td>סוג:</td> <td>תפוח</td>
+        </tr>
+        <tr>
+            <td>מין:</td> <td>תפוח תרבותי</td>
+        </tr>
+        <tr>
+            <td class="classificationGreen">שם מדעי</td>
+        </tr>
+        <tr>
+            <td><img id="wikispecies" src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/21px-Wikispecies-logo.svg.png'>Malus domestica</td>
+        </tr>
+    </table>
+  </span>
+ 

@@ -51,7 +51,7 @@
                 height: 60px;
                 width: 60px;
             }
-            h3,h2,h4{
+            h3,h2,h4,h5{
                 border-bottom: 1px solid rgb(172, 172, 172);
             }
             footer{
@@ -63,6 +63,9 @@
             }
             a{
                 text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
             }
             .types{
                 border-bottom: 2px solid black;
@@ -105,9 +108,22 @@
                 top: 280px;
                 right: 950px;
             }
+            .right-side{
+                position: absolute;
+                top: 200px;
+                left: 1230px;
+                line-height: 20px;
+                font-size: small;
+                background-color: rgb(240, 248, 255);
+
+            }
+            .tip{
+                font-size: medium;
+                margin-top: 30px;
+            }
             .honeycrisp{
                 font-size: small;
-                border: 1px solid rgb(139, 138, 138);
+                border: 1px solid rgba(139, 138, 138,0.5);
                 background-color: aliceblue;
                 padding: 5px;
             }
@@ -161,6 +177,10 @@
                 width: 240px;
                 height: 150px;
             }
+            .languages{
+                background-color: rgb(221, 235, 247);
+                border:1px solid rgb(192, 192, 228);
+            }
         </style>
 	</head>
 	<body>
@@ -173,6 +193,50 @@
         <a href="https://he.wikipedia.org/wiki/%D7%A2%D7%9E%D7%95%D7%93_%D7%A8%D7%90%D7%A9%D7%99">  <img id='free' src="https://he.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-he.svg">
         </a>
         </header>
+        <div class="right-side">
+            <a href="">עמוד ראשי</a><br>
+            <a href="">ברוכים הבאים</a><br>
+            <a href="">שינויים אחרונים</a><br>
+            <a href="">ערכים מומלצים</a><br>
+            <a href="">דיווח על טעות</a><br>
+            <a href="">פורטלים</a><br>
+            <a href="">ערך אקראי</a><br>
+            <a href="">תרומה לוויקיפדיה</a><br>
+            <div class="tip">
+                <strong>טיפ</strong>
+                <ul><li>ניתן להוריד כל דף כקובץ PDF, 
+                    וניתן גם ליצור ספר של מספר ערכים,
+                     האפשרויות מופיעות בתפריט הנגלל בצד ימין.</li></ul>
+            </div>
+            <h4>קהילה</h4>
+            <a href="">שער הקהילה</a><br>
+            <a href="">עזרה</a><br>
+            <a href="">ייעוץ</a><br>
+            <a href="">מזנון</a><br>
+            <a href="">כיכר העיר</a><br>
+            <a href="">חדשות</a><br>
+            <a href="">לוח מודעות</a><br>
+            <a href="">יצירת קשר</a><br>
+            <a href="">ספר אורחים</a><br>
+            <h4>כלים</h4>
+            <a href="">דפים המקושרים לכאן</a><br>
+            <a href="">שינויים בדפים המקושרים</a><br>
+            <a href="">דפים מיוחדים</a><br>
+            <a href="">קישור קבוע</a><br>
+            <a href="">מידע על הדף</a><br>
+            <a href="">ציטוט הדף הזה</a><br>
+            <a href="">פריט ויקינתונים</a><br>
+            <a href="">עריכת קישורים בין־לשוניים</a><br>
+            <h4>הדפסה/ייצוא</h4>
+            <a href="">יצירת ספר</a><br>
+            <a href="">הורדה כ־PDF</a><br>
+            <a href="">גרסה להדפסה</a><br>
+            <h4>במיזמים אחרים</h4>
+            <a href="">ויקישיתוף</a><br>
+            <a href="">ויקיציטוט</a><br>
+            <h4>שפות</h4>
+            <div class="languages">קישורי השפה נמצאים בראש הדף מול כותרת הערך. <a href="">לעבור למעלה</a>.</div>
+        </div>
         <div class="left-side">
             <table id="classification">
                 <tr>

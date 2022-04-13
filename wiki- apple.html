@@ -100,9 +100,10 @@
                 justify-content: center;
             }
             .classificationGreen{
-                display: flex;
-                justify-content: center;
                 background-color: rgb(124, 216, 124);
+            }
+            .Malus-domestica{
+                font-weight: normal;
             }
             #classification{
                 border: 1px solid rgb(139, 138, 138);
@@ -152,15 +153,21 @@
                 height: 300px;
             }
             .nutritionalValue{
-                margin-top: 670px;
+                margin-top: 720px;
                 margin-right: 20px;
                 border: 1px solid rgb(139, 138, 138);
+                border-collapse: collapse;
                 padding: 1px;
                 background-color: rgb(247, 250, 252);
                 font-size: small;
             }
             .nutritionalValueCell{
-               background-color:  orange;           
+               background-color:  rgb(253, 211, 133);   
+               border: 1px solid black;  
+               border-collapse: collapse;      
+            }
+            .nutritionalValueRow{
+                border-bottom: 1px solid rgb(250, 200, 108);
             }
             .einHoresh{
                 font-size: small;
@@ -309,13 +316,13 @@
         <div class="left-side">
             <table id="classification">
                 <tr>
-                    <td class="classificationGreen"> <strong>תפוח</strong></td>
+                    <th colspan="2" class="classificationGreen"> תפוח</th>
                 </tr>
                 <tr>
-                  <td class="classificationCell"> <img id="classificationImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/250px-Red_Apple.jpg"></td> 
+                  <th colspan="2" class="classificationCell"> <img id="classificationImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/250px-Red_Apple.jpg"></th> 
                   </tr>
                   <tr>
-                      <td class="classificationGreen">מיון מדעי</td>
+                      <th colspan="2" class="classificationGreen"> <a href='https://he.wikipedia.org/wiki/%D7%98%D7%A7%D7%A1%D7%95%D7%A0%D7%95%D7%9E%D7%99%D7%94_(%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94)'>מיון מדעי</a></th>
                   </tr>
                   <tr>
                       <td>ממלכה:</td> <td>צמחים</td>
@@ -339,10 +346,10 @@
                       <td>מין:</td> <td>תפוח תרבותי</td>
                   </tr>
                   <tr>
-                      <td class="classificationGreen">שם מדעי</td>
+                      <th colspan="2" class="classificationGreen"> <a href='https://he.wikipedia.org/wiki/%D7%A9%D7%9D_%D7%9E%D7%93%D7%A2%D7%99'>שם מדעי</a></th>
                   </tr>
                   <tr>
-                      <td><img id="wikispecies" src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/21px-Wikispecies-logo.svg.png'>Malus domestica</td>
+                      <th class="Malus-domestica" colspan="2"><img id="wikispecies" src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/21px-Wikispecies-logo.svg.png'> <a href='https://species.wikimedia.org/wiki/Malus_domestica'> Malus domestica</a></th>
                   </tr>
               </table>
               <div class="honeycrisp">
@@ -354,8 +361,8 @@
                   <p>מגוון זני תפוחים</p>
               </div>
               <table class="nutritionalValue">
-                <div class="nutritionalValueCell"><tr><td><strong>תפוח</strong></td></tr></div>
-                <tr class="nutritionalValueRow"><td>ערך תזונתי ל-100 גרם</td></tr>
+                <th colspan="2" class="nutritionalValueCell">תפוח</th>
+                <tr class="nutritionalValueRow"><td colspan="2">ערך תזונתי ל-100 גרם</td></tr>
                 <tr class="nutritionalValueRow">
                     <td>מים</td><td>85.56 ג'</td>
                 </tr>
@@ -369,7 +376,7 @@
                     <td>פחמימות</td><td>13.81 ג'</td>
                 </tr>
                 <tr>
-                    <td>פחמימות זמינות</td><td>13.3 ג'</td>
+                    <td><strong>פחמימות זמינות</strong></td><td>13.3 ג'</td>
                 </tr>
                 <tr>
                     <td>שומן</td><td>0.17 ג'</td>
@@ -378,7 +385,7 @@
                     <td>כולסטררול</td><td>0 מ"ג</td>
                 </tr>
                 <tr>
-                    <td>ויטמינים</td>
+                    <td><strong>ויטמינים</strong></td>
                 </tr>
                 <tr>
                     <td>‑ ויטמין A</td><td>3 מק"ג</td>
@@ -395,8 +402,8 @@
                 <tr>
                     <td> ‑ ויטמין B6</td><td>0.041 מ"ג</td>
                 </tr>
-               <div class="nu" <tr>
-                    <td> ‑ ויטמין C</td><td>4.6 מ"ג</td>
+               <tr class="nutritionalValueRow">
+                    <td> ‑ ויטמין C </td><td>4.6 מ"ג</td>
                 </tr>
                 <tr>
                     <td>ברזל</td><td>0.12 מ"ג</td>
@@ -413,8 +420,8 @@
                 <tr class="nutritionalValueRow">
                     <td>סיבים תזונתיים</td><td>	2.4 ג'</td>
                 </tr>
-                <tr class="nutritionalValueRow">
-                    <td>מקור: משרד החקלאות האמריקני</td>
+                <tr>
+                    <td colspan="2">מקור: משרד החקלאות האמריקני</td>
                 </tr>
             </table>
             <div class="einHoresh">
@@ -442,7 +449,7 @@
 <p>תַּפּוּחַ תַּרְבּוּתִי (מכונה גם תפוח-עץ או בקיצור תפוח, שם מדעי: Malus domestica)
      הוא מין של עץ פרי נשיר במשפחת הוורדיים.</p>
     <div class="menu">
-         <P>תוכן עניינים [<a href=''>הסתרה</a>]</P>
+               <P> <strong>תוכן עניינים </strong>[<a href=''>הסתרה</a>]</P>
      <ol>
          <li><a href="#content1"> מקור התפוח התרבותי</a></li>
          <li><a href="#content2"> זני תפוחים מתורבתים</a></li>
